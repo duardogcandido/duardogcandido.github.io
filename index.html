@@ -246,9 +246,10 @@
         "ga"
       );
 
-      ga("create", "UA-43718849-1", "duardogcandido.materialize.github.io");
+      ga("create", "UA-43718849-1", "duardogcandido.github.io/materialize");
       ga("send", "pageview");
     </script>
+
     <script type="text/javascript">
       var _vwo_code = (function () {
         var account_id = location.search.split("id=")[1]
@@ -315,12 +316,14 @@
       })();
       _vwo_settings_timer = _vwo_code.init();
     </script>
+
     <script>
       _vwo_pc_custom = {
         t: 100,
         a: 100, // Track
       };
     </script>
+
     <script>
       $(document).ready(function () {
         var toggle = -1;
@@ -347,7 +350,7 @@
 
         setTimeout(function () {
           var firstSliderImage = document.getElementById("slide-image-1");
-          firstSliderImage.src = "/media/images/background_principal.jpg";
+          firstSliderImage.src = "media/images/background_principal.jpg";
           firstSliderImage.onload = function () {
             $(".all-body-click-region.inner__wrapper").css({
               display: "block",
