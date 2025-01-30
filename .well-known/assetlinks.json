@@ -1,9 +1,9 @@
 [{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "click",
-      "package_name": "br.com.sabereducacao.clicksaber.clicksaber",
-      "sha256_cert_fingerprints":
-      ["D2:4A:E2:00:24:B5:66:90:7B:B6:E2:BE:DB:30:3A:29:94:AB:42:1E:CD:39:0F:8F:93:12:FD:B0:B6:88:5B:AE"]
-    }
-  }]
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "br.com.sabereducacao.clicksaber.clicksaber",
+    "sha256_cert_fingerprints":
+    ["B9:5F:E3:BA:4E:21:FC:62:E0:00:FB:1D:83:D0:8B:AC:07:F3:B2:77:B3:C5:44:50:E4:7D:B7:89:A7:6F:90:A7"]
+  }
+}]
