@@ -1,2 +1,2 @@
 # duardogcandido.github.io
-My new website using MaterializeCss Framework for study
+My new website using Materialize Framework for study and test other applications
