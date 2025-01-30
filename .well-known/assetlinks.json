@@ -1,58 +1,14 @@
-[
-    {
-      "relation": [
-        "delegate_permission/common.get_login_creds"
-      ],
-      "target": {
-        "namespace": "web",
-        "site": "https://www.mercadolibre.com"
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.get_login_creds"
-      ],
-      "target": {
-        "namespace": "web",
-        "site": "https://www.mercadolivre.com"
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.mercadolibre",
-        "sha256_cert_fingerprints": [
-          "92:87:3C:D6:7A:D2:F3:87:43:D2:39:43:E1:40:E7:A4:A4:5A:9B:C8:BA:46:06:AD:1E:8D:A7:30:BF:30:57:E9",
-          "0E:42:F7:62:15:23:31:B5:57:53:2C:E6:BA:C7:C4:51:18:52:1D:46:C6:A0:D5:FC:F4:76:DD:BB:BB:BB:9F:22"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.mercadopago.wallet",
-        "sha256_cert_fingerprints": [
-          "68:6E:21:68:F9:A9:08:4A:D6:11:61:D9:FA:4F:EB:5B:0D:7B:52:B1:F3:0F:19:78:10:5A:31:25:BF:57:5A:2E",
-          "0E:42:F7:62:15:23:31:B5:57:53:2C:E6:BA:C7:C4:51:18:52:1D:46:C6:A0:D5:FC:F4:76:DD:BB:BB:BB:9F:22"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.mercadolibre.android.melistore",
-        "sha256_cert_fingerprints": [
-          "BD:9C:05:FE:19:F9:93:CE:49:46:B9:3F:57:78:B7:bd:96:6D:47:B5:26:72:D9:2F:4A:C9:4F:52:A3:08:93:69"
-        ]
-      }
-    }
-  ]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "br.com.sabereducacao.clicksaber.clicksaber",
+    "sha256_cert_fingerprints":
+    [
+      "B9:5F:E3:BA:4E:21:FC:62:E0:00:FB:1D:83:D0:8B:AC:07:F3:B2:77:B3:C5:44:50:E4:7D:B7:89:A7:6F:90:A7",
+      "6C:5D:75:04:AA:D9:11:34:A7:45:E0:38:8A:CE:95:96:AF:F6:EC:06:B3:28:D8:2F:1E:3A:A5:AF:89:D8:CD:41",
+      "D2:4A:E2:00:24:B5:66:90:7B:B6:E2:BE:DB:30:3A:29:94:AB:42:1E:CD:39:0F:8F:93:12:FD:B0:B6:88:5B:AE"
+    ]
+  }
+}
+]
